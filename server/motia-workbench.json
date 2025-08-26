@@ -1,0 +1,69 @@
+[
+  {
+    "id": "basic-tutorial",
+    "config": {
+      "steps/state-audit-cron.step.ts": {
+        "x": -165,
+        "y": 217,
+        "sourceHandlePosition": "right"
+      }
+    }
+  },
+  {
+    "id": "gmail-flow",
+    "config": {
+      "steps/gmail-workflow/organize-email.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "steps/gmail-workflow/gmail-webhook.step.ts": {
+        "x": -807,
+        "y": -161
+      },
+      "steps/gmail-workflow/fetch-email.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "steps/gmail-workflow/daily-summary.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "steps/gmail-workflow/auto-responder.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "steps/gmail-workflow/analyze-email.step.py": {
+        "x": 0,
+        "y": 0
+      },
+      "steps/gmail-workflow/noops/human-review.step.ts": {
+        "x": 392,
+        "y": 110
+      },
+      "steps/gmail-workflow/noops/google-auth-noops.step.ts": {
+        "x": -1185,
+        "y": 121
+      },
+      "steps/gmail-workflow/noops/gmail-webhook-simulator.step.ts": {
+        "x": 0,
+        "y": -95
+      },
+      "steps/gmail-workflow/api/gmail-watch.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "steps/gmail-workflow/api/gmail-token-status.step.ts": {
+        "x": -407,
+        "y": 280
+      },
+      "steps/gmail-workflow/api/gmail-get-auth-url.step.ts": {
+        "x": 0,
+        "y": 0
+      },
+      "steps/gmail-workflow/api/gmail-auth-callback.step.ts": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  }
+]

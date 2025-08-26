@@ -1,0 +1,10 @@
+transformers
+torch
+numpy
+scikit-learn
+pandas
+python-dotenv
+huggingface_hub>=0.29.1
+requests>=2.32.3
+pyyaml>=6.0.2
+tqdm>=4.67.1
